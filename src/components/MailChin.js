@@ -7,7 +7,7 @@ const MailChin = () => {
 
     return (
         <>
-            <MailchimpSubscribe
+            {/* <MailchimpSubscribe
                 url={postUrl}
                 render={({subscribe, status, message} ) => (
                     <NewLetter 
@@ -16,7 +16,7 @@ const MailChin = () => {
                     onValidated={formData => subscribe(formData)}
                     />
                 )}
-            />
+            /> */}
         </>
     );
 }

@@ -3,23 +3,23 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import projImg1 from '../assets/img/project-img1.png';
-import projImg2 from '../assets/img/project-img2.png';
+import projImg2 from '../assets/img/fitclub-ehl.pages.dev_ (7).png';
 import projImg3 from '../assets/img/project-img3.png';
 
 const Projects = () => {
     const projects = [
         {
             title: "Amazon-Clone",
-            description: "Design and Development",
+            description: "Design and Development By Reactjs",
             imgUrl: projImg1,
         },
         {
-            title: "Amazon-Clone",
-            description: "Design and Development",
+            title: "FitClub",
+            description: "Fitness Website By Reacts",
             imgUrl: projImg2,
         },
         {
-            title: "Amazon-Clone",
+            title: "Portfolio",
             description: "Design and Development",
             imgUrl: projImg3,
         },
